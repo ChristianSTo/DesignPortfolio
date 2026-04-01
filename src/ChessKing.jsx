@@ -7,7 +7,7 @@ import React from "react";
 import { useGLTF } from "@react-three/drei";
 
 export function ChessKing(props) {
-  const { nodes, materials } = useGLTF("/chessKing.glb");
+  const { nodes, materials } = useGLTF("./chessKing.glb");
   return (
     <group {...props} dispose={null}>
       <mesh
