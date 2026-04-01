@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family:
-    Garamond, "EB Garamond", "Goudy Old Style", "Apple Garamond", "Baskerville",
-    "Times New Roman", serif;
+    Garamond, "EB Garamond", "Apple Garamond", "Baskerville", "Times New Roman",
+    serif;
 }
 
 h2 {
@@ -18,8 +20,8 @@ h2 {
   z-index: 99;
   mix-blend-mode: difference;
   font-family:
-    Garamond, "EB Garamond", "Goudy Old Style", "Apple Garamond", "Baskerville",
-    "Times New Roman", serif;
+    Garamond, "EB Garamond", "Apple Garamond", "Baskerville", "Times New Roman",
+    serif;
 }
 
 body {
@@ -31,6 +33,6 @@ body {
   overflow-x: hidden;
   background-color: #000;
   font-family:
-    Garamond, "EB Garamond", "Goudy Old Style", "Apple Garamond", "Baskerville",
-    "Times New Roman", serif;
+    Garamond, "EB Garamond", "Apple Garamond", "Baskerville", "Times New Roman",
+    serif;
 }
