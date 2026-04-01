@@ -17,7 +17,7 @@ h2 {
   font-size: inherit;
   color: #fff;
   height: 100vh;
-  user-select: none;
+  /* user-select: none; */
   z-index: 99;
   mix-blend-mode: difference;
   font-family:
