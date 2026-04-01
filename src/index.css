@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:
-    Garamond, "EB Garamond", "Apple Garamond", "Baskerville", "Times New Roman",
-    serif;
+  font-family: "Baskerville", "Libre Baskerville", "Georgia", serif;
 }
 
 h2 {
@@ -19,9 +17,7 @@ h2 {
   user-select: none;
   z-index: 99;
   mix-blend-mode: difference;
-  font-family:
-    Garamond, "EB Garamond", "Apple Garamond", "Baskerville", "Times New Roman",
-    serif;
+  font-family: "Baskerville", "Libre Baskerville", "Georgia", serif;
 }
 
 body {
@@ -32,7 +28,5 @@ body {
   place-items: center; */
   overflow-x: hidden;
   background-color: #000;
-  font-family:
-    Garamond, "EB Garamond", "Apple Garamond", "Baskerville", "Times New Roman",
-    serif;
+  font-family: "Baskerville", "Libre Baskerville", "Georgia", serif;
 }
