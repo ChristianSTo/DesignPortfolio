@@ -21,8 +21,8 @@ h2 {
   z-index: 99;
   mix-blend-mode: difference;
   font-family:
-    "Baskerville", "Libre Baskerville", "Tinos", "Garamond", "EB Garamond",
-    "Times New Roman", "Times", serif;
+    "Baskerville", "Libre Baskerville", "Tinos", "Times New Roman", "Times",
+    serif;
 }
 
 body {
@@ -34,6 +34,6 @@ body {
   overflow-x: hidden;
   background-color: #000;
   font-family:
-    "Baskerville", "Libre Baskerville", "Tinos", "Garamond", "EB Garamond",
-    "Times New Roman", "Times", serif;
+    "Baskerville", "Libre Baskerville", "Tinos", "Times New Roman", "Times",
+    serif;
 }
