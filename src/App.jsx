@@ -12,6 +12,7 @@ import ContentSix from "./components/ContentSix";
 import ContentSeven from "./components/ContentSeven";
 import ContentEight from "./components/ContentEight";
 import ContentNine from "./components/ContentNine";
+import ContentTen from "./components/ContentTen";
 import CameraHandler from "./components/CameraHandler"; // Import your handler
 import KingVisibility from "./components/KingVisibility";
 
@@ -59,8 +60,8 @@ function App() {
               <ContentSix />
               <ContentSeven />
               <ContentEight />
-              <ContentEight />
               <ContentNine />
+              <ContentTen />
             </Scroll>
           </ScrollControls>
         </Canvas>

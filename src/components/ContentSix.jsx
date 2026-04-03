@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 import "../blocks/content.scss";
 
 function ContentSix() {
-  const text = "CREATE";
+  const text = "NEW";
   const ref = useRef(null);
 
   useEffect(() => {

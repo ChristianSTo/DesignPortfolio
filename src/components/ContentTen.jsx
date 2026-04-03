@@ -1,8 +1,8 @@
 import { useRef, useEffect } from "react";
 import "../blocks/content.scss";
 
-function ContentEight() {
-  const text = "WEB";
+function ContentTen() {
+  const text = "";
   const ref = useRef(null);
 
   useEffect(() => {
@@ -30,4 +30,4 @@ function ContentEight() {
   );
 }
 
-export default ContentEight;
+export default ContentTen;

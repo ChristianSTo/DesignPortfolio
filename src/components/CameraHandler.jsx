@@ -11,7 +11,8 @@ export default function CameraHandler() {
   useFrame((state) => {
     const shots = [
       { pos: [0, 4.75, 0.1], target: [0, 4.75, 0.1], roll: 0 },
-      { pos: [0, 2.0, 150.0], target: [0, 2.0, 0.1], roll: 0 },
+      { pos: [0, 0.5, 100.0], target: [0, 1.5, 0.1], roll: 0 },
+      // { pos: [0, 2.0, 150.0], target: [0, 2.0, 0.1], roll: 0 },
       { pos: [0, 60.0, 120.0], target: [0, 2.0, 0.1], roll: Math.PI * 0.25 },
       { pos: [0, 150.0, 20.0], target: [0, 2.0, 0.1], roll: Math.PI * 0.5 },
       { pos: [0, 60.0, 120.0], target: [0, 2.0, 0.1], roll: Math.PI * 0.75 },
