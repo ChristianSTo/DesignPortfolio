@@ -1,10 +1,8 @@
 import { useRef, useEffect } from "react";
 import "../blocks/content.scss";
-import king from "../assets/images/king.png";
-import ContentFour from "./ContentFour";
 
-function ContentFive() {
-  const text = "UX";
+function ContentNine() {
+  const text = "";
   const ref = useRef(null);
 
   useEffect(() => {
@@ -24,14 +22,12 @@ function ContentFive() {
   }, [text]);
 
   return (
-    <div className="content__five">
-      {/* <img src={king} alt="king" className="content__king"></img> */}
+    <div className="content-five">
       <h2 ref={ref} style={{ whiteSpace: "nowrap", display: "block" }}>
         {text}
       </h2>
-      <ContentFour />
     </div>
   );
 }
 
-export default ContentFive;
+export default ContentNine;

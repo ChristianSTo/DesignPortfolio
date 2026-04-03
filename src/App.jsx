@@ -8,6 +8,10 @@ import ContentTwo from "./components/ContentTwo";
 import ContentThree from "./components/ContentThree";
 import ContentFour from "./components/ContentFour";
 import ContentFive from "./components/ContentFive";
+import ContentSix from "./components/ContentSix";
+import ContentSeven from "./components/ContentSeven";
+import ContentEight from "./components/ContentEight";
+import ContentNine from "./components/ContentNine";
 import CameraHandler from "./components/CameraHandler"; // Import your handler
 import KingVisibility from "./components/KingVisibility";
 
@@ -32,7 +36,7 @@ function App() {
 
           {/* 1. Wrap everything in ScrollControls */}
           {/* pages={4} because you have 4 shots in your handler */}
-          <ScrollControls pages={6} damping={0.3}>
+          <ScrollControls pages={9} damping={0.3}>
             {/* 2. Add the CameraHandler (Removes the need for OrbitControls) */}
             <CameraHandler />
 
@@ -52,6 +56,11 @@ function App() {
               <ContentTwo />
               <ContentThree />
               <ContentFive />
+              <ContentSix />
+              <ContentSeven />
+              <ContentEight />
+              <ContentEight />
+              <ContentNine />
             </Scroll>
           </ScrollControls>
         </Canvas>
