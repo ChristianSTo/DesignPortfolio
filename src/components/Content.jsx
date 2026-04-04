@@ -33,10 +33,7 @@ function ContentFive() {
         setShowBg(scrollContainer.scrollTop === 0);
       };
 
-      // Use passive: true for better scroll performance
-      scrollContainer.addEventListener("scroll", handleScroll, {
-        passive: true,
-      });
+      scrollContainer.addEventListener("scroll", handleScroll);
       return () => scrollContainer.removeEventListener("scroll", handleScroll);
     }, 500);
 

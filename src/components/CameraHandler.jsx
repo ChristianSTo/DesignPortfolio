@@ -22,11 +22,11 @@ export default function CameraHandler() {
       { pos: [0, -60.0, 120.0], target: [0, 2.0, 0.1], roll: Math.PI * 1.75 },
       { pos: [0, 2.0, 150.0], target: [0, 2.0, 0.1], roll: Math.PI * 2 },
     ];
-    const rpp = scroll.offset;
+    const rpp = Math.min(Math.max(scroll.offset, 0), 1);
     const totalSections = shots.length - 1;
     const rawIndex = rpp * totalSections;
     const index = Math.min(Math.floor(rawIndex), totalSections - 1);
-    const t = rawIndex - index;
+    const t = Math.min(rawIndex - index, 1);
 
     vPos.current.lerpVectors(
       new THREE.Vector3(...shots[index].pos),
