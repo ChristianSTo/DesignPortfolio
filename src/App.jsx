@@ -23,6 +23,8 @@ function App() {
 
   return (
     <div className="app space">
+      <Header />
+
       <div style={{ width: "100%", height: "100vh" }}>
         <Canvas
           flat
@@ -51,7 +53,6 @@ function App() {
 
             {/* 3. Move your Content BACK into the Scroll wrapper */}
             <Scroll html style={{ width: "100%" }}>
-              <Header />
               <Content />
               <ContentTwo />
               <ContentThree />

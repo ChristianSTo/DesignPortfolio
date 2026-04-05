@@ -1,8 +1,8 @@
 import { useRef, useEffect, useState } from "react";
 import "../blocks/content.scss";
 
-function ContentFive() {
-  const text = "CHRISTIAN";
+function Content() {
+  const text = "CHRISTIAN TO";
   const ref = useRef(null);
   const [showBg, setShowBg] = useState(true);
 
@@ -41,7 +41,7 @@ function ContentFive() {
   }, []);
 
   return (
-    <div className="content-five" style={{ position: "relative" }}>
+    <div className="content content__one" style={{ position: "relative" }}>
       <div className="content__bg" style={{ opacity: showBg ? 1 : 0 }} />
 
       <h2
@@ -56,4 +56,4 @@ function ContentFive() {
   );
 }
 
-export default ContentFive;
+export default Content;

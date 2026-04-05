@@ -22,7 +22,7 @@ function ContentFive() {
   }, [text]);
 
   return (
-    <div className="content-five">
+    <div className="content">
       <h2 ref={ref} style={{ whiteSpace: "nowrap", display: "block" }}>
         {text}
       </h2>

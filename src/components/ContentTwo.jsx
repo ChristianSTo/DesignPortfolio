@@ -1,7 +1,7 @@
 import { useRef, useEffect } from "react";
 import "../blocks/content.scss";
 
-function ContentFive() {
+function ContentTwo() {
   const text = "";
   const ref = useRef(null);
 
@@ -22,7 +22,7 @@ function ContentFive() {
   }, [text]);
 
   return (
-    <div className="content-five">
+    <div className="content">
       <h2 ref={ref} style={{ whiteSpace: "nowrap", display: "block" }}>
         {text}
       </h2>
@@ -30,4 +30,4 @@ function ContentFive() {
   );
 }
 
-export default ContentFive;
+export default ContentTwo;
